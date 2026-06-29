@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR3b0025/v1
+canonical_location: https://kanripo.org/bkk/KR3b0025/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 孫臏兵法
+  identifiers:
+    krp: KR3b0025
+  tags:
+    tls-internal:
+    - tr-en
+    - swl
+    kr-categories: KR3b
+  source:
+    repository: tls-texts
+    path: data/tls/KR3b0025.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR3b0025_001.yaml, hash: 'sha256:29df542182757b2204f0c5c40fb481850b23185b9e0865dc56867e1271e4e00e'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3b0025_001.markers.yaml, hash: 'sha256:6625db9a7533d5f31167acfb65eedca6cbb4db877b5fd6d1983bff115ceadc72'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3b0025_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 4935
+  label: 擒龐涓
+  type: section
+  level: 1
+hash: sha256:ee1aedb50fbf2f9cd5906b3e64e581aa0a0f5bff336be1dabb9343ea0dc21847
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
