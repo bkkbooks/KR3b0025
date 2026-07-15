@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR3b0025/v1
 canonical_location: https://kanripo.org/bkk/KR3b0025/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 孫臏兵法
   identifiers:
@@ -19,9 +19,9 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR3b0025_001.yaml, hash: 'sha256:b9ae03ccddfc4de1139f36e341292222b3daf1fab5043cd1cf5d0d999260bb13'}
+  - {seq: 1, filename: KR3b0025_001.yaml, hash: 'sha256:6588ebedf79de1659826c5a681b3489c65f2b5cf8685e22366d37ad958a271e1'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR3b0025_001.markers.yaml, hash: 'sha256:8a77b2d6211aaeea6c3968ce989576e609e90bea48d6d96dae0d2bcf363ad437'}
+  - {seq: 1, role: markers, filename: assets/KR3b0025_001.markers.yaml, hash: 'sha256:426deec468d726f7e74f756ca882f709f5e629c3235b43cef7d0f5e2545796ff'}
 table_of_contents:
 - ref:
     seq: 1
@@ -33,4 +33,7 @@ table_of_contents:
   label: 擒龐涓
   type: section
   level: 1
-hash: sha256:0ae28202dc4262ec508987951d9d9627199b33677e227d753224cdd5e8746674
+hash: sha256:dbf5c907b3649f7166b5da2b96a349e2b4c33bd9be16af3f15ae07778aa1a5b0
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
